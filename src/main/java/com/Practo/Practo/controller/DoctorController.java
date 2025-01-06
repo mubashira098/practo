@@ -18,7 +18,7 @@ public class DoctorController {
         this.doctorService = doctorService;
     }
 
-    @PostMapping("/add")
+    @PostMapping("/adds")
     public ResponseEntity<Doctor> createDoctor(@RequestBody Doctor doctor) {
         Doctor createdDoctor = doctorService.createDoctor(doctor);
         return ResponseEntity.status(HttpStatus.CREATED).body(createdDoctor);
