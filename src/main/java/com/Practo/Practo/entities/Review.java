@@ -1,5 +1,7 @@
 package com.Practo.Practo.entities;
-
+/*
+@Author mubashira
+ */
 import com.fasterxml.jackson.annotation.JsonAlias;
 import lombok.AllArgsConstructor;
 import lombok.Data;
